@@ -29,6 +29,15 @@ if familia == 'Chipre':
 # Más contenido multimedia y widgets
 st.header("Componentes de una fragancia")
 st.write("Los perfumes se construyen en una pirámide olfativa con notas de salida, corazón y fondo. Las primeras son las que hueles al aplicar, las del corazón se revelan después, y las de fondo son las que perduran.")
+import streamlit as st
+import os
+
+# Si la imagen es local
+
+# Si la imagen es desde una URL
+url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/foto1.jpg?raw=true"
+st.image(url_de_la_imagen, width=600, caption="Imagen de referencia")
+
 
 
 
