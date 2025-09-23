@@ -19,6 +19,12 @@ Nuestro equipo está compuesto por:
 st.warning("Toda la información y los perfumes son exclusivos de la dueña.")
 import streamlit as st
 
+# Reemplaza la URL de ejemplo con el enlace de tu imagen
+url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/foto1.jpg?raw=true"
+
+# Muestra la imagen directamente desde la URL
+st.image(url_de_la_imagen, caption="Una imagen desde un enlace")
+
 
 
 
