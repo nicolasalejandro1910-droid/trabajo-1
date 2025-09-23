@@ -18,8 +18,6 @@ st.markdown("---") # Separador
 
 # Imagenes de la carpeta 'assets'
 st.header("¿Por qué elegir un perfume?")
-st.image(os.path.join("assets", "perfume fregancia.png"), caption="Una fragancia puede definir tu personalidad.", use_container_width=True
-)
 
 # Textos
 st.write("Un perfume es mucho más que un aroma; es una declaración de estilo, un recuerdo y una extensión de tu personalidad. Cada fragancia cuenta una historia diferente en la piel de quien la lleva.")
@@ -27,6 +25,7 @@ st.write("Un perfume es mucho más que un aroma; es una declaración de estilo, 
 # Interacción con el usuario
 if st.button("¡Haz clic para una curiosidad sobre perfumes!"):
     st.info("¿Sabías que la palabra 'perfume' proviene del latín 'per fumum', que significa 'a través del humo'?")
+
 
 
 
