@@ -18,14 +18,7 @@ Nuestro equipo está compuesto por:
 """)
 st.warning("Toda la información y los perfumes son exclusivos de la dueña.")
 
-import streamlit as st
-import os
 
-# Si la imagen es local
-
-# Si la imagen es desde una URL
-url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/foto1.jpg?raw=true"
-st.image(url_de_la_imagen, width=600, caption="Imagen de referencia")
 
 
 
