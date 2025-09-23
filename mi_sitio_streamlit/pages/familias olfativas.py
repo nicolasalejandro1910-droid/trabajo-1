@@ -21,14 +21,15 @@ st.write(f'Seleccionaste la familia olfativa: **{familia}**.')
 if familia == 'Floral':
     st.info("La familia floral es la más popular. Sus fragancias se componen de notas de flores como rosas, jazmines y lirios.")
 if familia == 'Cítrica':
-    st.info("La familia floral es la más popular. Sus fragancias se componen de notas de flores como rosas, jazmines y lirios.")
+    st.info("La familia cítrica es fresca y energizante, perfecta para climas cálidos. Sus fragancias se componen de notas brillantes y jugosas como limón, bergamota y mandarina.")
 if familia == 'Oriental':
-    st.info("La familia floral es la más popular. Sus fragancias se componen de notas de flores como rosas, jazmines y lirios.")
+    st.info("La familia Oriental es conocida por sus aromas cálidos y exóticos. Sus fragancias se componen de notas ricas como vainilla, especias y resinas.")
 if familia == 'Chipre':
-    st.info("La familia floral es la más popular. Sus fragancias se componen de notas de flores como rosas, jazmines y lirios.")
+    st.info("La familia chipre es clásica y sofisticada. Sus fragancias se componen de notas de contraste entre la frescura cítrica de la salida y una base amaderada y musgosa.")
 # Más contenido multimedia y widgets
 st.header("Componentes de una fragancia")
 st.write("Los perfumes se construyen en una pirámide olfativa con notas de salida, corazón y fondo. Las primeras son las que hueles al aplicar, las del corazón se revelan después, y las de fondo son las que perduran.")
+
 
 
 
