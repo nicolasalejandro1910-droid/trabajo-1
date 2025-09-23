@@ -32,7 +32,8 @@ st.write("Los perfumes se construyen en una pirámide olfativa con notas de sali
 import streamlit as st
 import os
 
-st.image(os.path.join("assets", "foto1.jpg"))
+st.image(os.path.join("assets", "foto1"))
+
 
 
 
