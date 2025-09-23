@@ -22,7 +22,7 @@ import os
 
 # Si la imagen es desde una URL
 url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/logo.png?raw=true"
-st.image(url_de_la_imagen, width=400, caption="Imagen de referencia")
+st.image(url_de_la_imagen, width=400)
 
 # Imagenes de la carpeta 'assets'
 st.header("¿Por qué elegir un perfume?")
@@ -33,6 +33,7 @@ st.write("Un perfume es mucho más que un aroma; es una declaración de estilo, 
 # Interacción con el usuario
 if st.button("¡Haz clic para una curiosidad sobre perfumes!"):
     st.info("¿Sabías que la palabra 'perfume' proviene del latín 'per fumum', que significa 'a través del humo'?")
+
 
 
 
