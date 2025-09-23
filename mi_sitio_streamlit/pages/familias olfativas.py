@@ -20,6 +20,15 @@ st.write(f'Seleccionaste la familia olfativa: **{familia}**.')
 # Condicional para explicar la familia olfativa seleccionada
 if familia == 'Floral':
     st.info("La familia floral es la más popular. Sus fragancias se componen de notas de flores como rosas, jazmines y lirios.")
+    import streamlit as st
+    import os
+
+    # Si la imagen es desde una URL
+    url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/floral.png?raw=true"
+
+    # Crea tres columnas con un ratio de 1:2:1
+    # Esto hace que la columna central sea el doble de ancha que las laterales
+    col1, col2, col3 = st.columns([1, 2, 1])
 if familia == 'Cítrica':
     st.info("La familia cítrica es fresca y energizante, perfecta para climas cálidos. Sus fragancias se componen de notas brillantes y jugosas como limón, bergamota y mandarina.")
 if familia == 'Oriental':
@@ -37,6 +46,7 @@ import os
 # Si la imagen es desde una URL
 url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/foto1.jpg?raw=true"
 st.image(url_de_la_imagen, width=600, caption="Imagen de referencia")
+
 
 
 
