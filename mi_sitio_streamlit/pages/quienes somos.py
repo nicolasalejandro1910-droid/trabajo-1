@@ -17,10 +17,7 @@ Nuestro equipo está compuesto por:
 
 """)
 st.warning("Toda la información y los perfumes son exclusivos de la dueña.")
-import streamlit as st
-import os
 
-# Muestra la imagen desde la carpeta 'assets'
-st.image(os.path.join("assets", "foto1.jpg"))
+
 
 
