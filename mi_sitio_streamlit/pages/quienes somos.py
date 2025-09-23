@@ -17,13 +17,17 @@ Nuestro equipo está compuesto por:
 
 """)
 st.warning("Toda la información y los perfumes son exclusivos de la dueña.")
+
 import streamlit as st
+import os
 
-# Reemplaza la URL de ejemplo con el enlace de tu imagen
+# Si la imagen es local
+
+# Si la imagen es desde una URL
 url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/foto1.jpg?raw=true"
+st.image(url_de_la_imagen, width=200, caption="Imagen pequeña desde URL (200px de ancho)")
 
-# Muestra la imagen directamente desde la URL
-st.image(url_de_la_imagen, caption="Una imagen desde un enlace")
+
 
 
 
