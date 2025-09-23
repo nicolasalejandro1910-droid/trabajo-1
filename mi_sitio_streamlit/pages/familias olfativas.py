@@ -21,6 +21,7 @@ st.write(f'Seleccionaste la familia olfativa: **{familia}**.')
 if familia == 'Floral':
      st.info("La familia floral es dulce y romantica, perfecta para climas templados. Sus fragancias se componen de notas brillantes y dulces como las rosas, jazmin y azahar.")
 if familia == 'Oriental':
+    st.info("La familia floral es dulce y romantica, perfecta para climas templados. Sus fragancias se componen de notas brillantes y dulces como las rosas, jazmin y azahar.")
 if familia == 'Cítrica':
     st.info("La familia cítrica es fresca y energizante, perfecta para climas cálidos. Sus fragancias se componen de notas brillantes y jugosas como limón, bergamota y mandarina.")
 if familia == 'Oriental':
@@ -38,6 +39,7 @@ import os
 # Si la imagen es desde una URL
 url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/foto1.jpg?raw=true"
 st.image(url_de_la_imagen, width=600, caption="Imagen de referencia")
+
 
 
 
