@@ -27,7 +27,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:
     # Muestra la imagen dentro de la columna del centro
-    st.image(url_de_la_imagen, width=400)
+    st.image(url_de_la_imagen, width=300)
 
 # Imagenes de la carpeta 'assets'
 st.header("¿Por qué elegir un perfume?")
@@ -38,6 +38,7 @@ st.write("Un perfume es mucho más que un aroma; es una declaración de estilo, 
 # Interacción con el usuario
 if st.button("¡Haz clic para una curiosidad sobre perfumes!"):
     st.info("¿Sabías que la palabra 'perfume' proviene del latín 'per fumum', que significa 'a través del humo'?")
+
 
 
 
