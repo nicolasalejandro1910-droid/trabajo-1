@@ -38,11 +38,12 @@ import streamlit as st
 import os
 
 # Pegado de imagen
-url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/logo.png?raw=true"
+url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/probador%20perfume.png?raw=true"
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     # tamaño de imagen
     st.image(url_de_la_imagen, width=300)
+
 
 
 
