@@ -5,6 +5,16 @@ st.title("Familias Olfativas")
 
 st.markdown("---")
 
+import streamlit as st
+import os
+
+# Pegado de imagen
+url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/utilizar1.png?raw=true"
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    # tamaño de imagen
+    st.image(url_de_la_imagen, width=300)
+    
 st.header("Descubre tu familia olfativa")
 
 # Carga y muestra de un video
@@ -37,6 +47,7 @@ import os
 # Si la imagen es desde una URL
 url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/foto1.jpg?raw=true"
 st.image(url_de_la_imagen, width=600, caption="Imagen de referencia")
+
 
 
 
