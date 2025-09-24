@@ -17,6 +17,16 @@ Nuestro equipo está compuesto por:
 
 """)
 st.warning("Toda la información y los perfumes son exclusivos de la dueña.")
+import streamlit as st
+import os
+
+# Pegado de imagen
+url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/perfume%20francia.png?raw=true"
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    # tamaño de imagen
+    st.image(url_de_la_imagen, width=300)
+
 
 
 
