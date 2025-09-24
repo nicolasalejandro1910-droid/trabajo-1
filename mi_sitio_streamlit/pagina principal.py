@@ -22,7 +22,7 @@ import os
 url_de_la_imagen = "https://github.com/nicolasalejandro1910-droid/trabajo-1/blob/main/mi_sitio_streamlit/assets/logo.png?raw=true"
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    # Muestra la imagen dentro de la columna del centro
+    # tamaño de imagen
     st.image(url_de_la_imagen, width=300)
 
 # Pregunta tipica al consumidor
@@ -34,6 +34,7 @@ st.write("Un perfume es mucho más que un aroma; es una declaración de estilo, 
 # Interacción con el usuario
 if st.button("¡Haz clic para una curiosidad sobre perfumes!"):
     st.info("¿Sabías que la palabra 'perfume' proviene del latín 'per fumum', que significa 'a través del humo'?")
+
 
 
 
